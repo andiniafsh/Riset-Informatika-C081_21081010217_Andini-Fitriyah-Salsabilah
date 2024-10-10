@@ -1,5 +1,5 @@
-!Andini Fitriyah Salsabilah  
-!21081010217
+##Andini Fitriyah Salsabilah  
+##21081010217
 
 # About 🌐
 ### Tugas Mata Kuliah Riset Informatika
