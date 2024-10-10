@@ -19,8 +19,8 @@ Andini Fitriyah Salsabilah
 
 | No | Jenis Penelitian       | Link Jurnal                                          |
 |----|-----------------------|-----------------------------------------------------|
-| 1  | Penelitian Historis   | [Link Jurnal]()                                     |
-| 2  | Penelitian Filosofis   | [Link Jurnal]()                                     |
+| 1  | Penelitian Historis   | [Link Jurnal](https://ojs.bonviewpress.com/index.php/AIA/article/view/689/580)                                     |
+| 2  | Penelitian Filosofis   | [Link Jurnal](https://link.springer.com/article/10.1007/s11229-022-03999-y)                                     |
 | 3  | Penelitian Observasional| [Link Jurnal]()                                     |
 | 4  | Penelitian Eksperimental| [Link Jurnal]()                                     |
 
