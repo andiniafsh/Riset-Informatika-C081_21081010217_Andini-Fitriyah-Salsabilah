@@ -1,8 +1,9 @@
-Andini Fitriyah Salsabilah  
-21081010217
 
 # About 🌐
 ### Tugas Mata Kuliah Riset Informatika
+#### Nama : Andini Fitriyah Salsabilah  
+#### NPM  : 21081010217
+
 1. Tugas ini mencakup review beberapa penelitian berdasarkan jenisnya. Setiap review terdapat dalam folder berupa file dengan format PDF.
 2. Tugas ini mencakup review 1 jurnal acuan yang ingin dijadikan paper.
 
