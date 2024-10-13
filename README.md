@@ -46,7 +46,7 @@
 ## ❓ Analisis Gap
 #### Penelitian ini terbatas pada satu jenis model deep learning, yaitu CNN dari awal, untuk mendeteksi hama pada tanaman caisim. Selain itu, hanya menggunakan dataset kecil dengan 1000 gambar. Model tersebut tidak mencakup metode deteksi yang lebih kompleks atau segmentasi untuk memperjelas area yang terkena hama secara spesifik. Pendekatannya juga terbatas pada tanaman caisim, sehingga hasilnya mungkin tidak dapat digeneralisasi untuk jenis tanaman lain
 
-### alternatif agar mendapatkan nilai akurasi yang lebih baik
+### 🟦alternatif agar mendapatkan nilai akurasi yang lebih baik
 1. Penerapan Transfer Learning dengan Model Pre-trained
 Alih-alih membangun CNN dari awal, gunakan model yang telah dilatih sebelumnya seperti VGG16, ResNet, atau EfficientNet. Transfer learning memungkinkan model menggunakan pengetahuan yang telah dipelajari dari dataset besar seperti ImageNet, yang dapat meningkatkan akurasi dan generalisasi meskipun dataset terbatas.
 Dengan fine-tuning model pre-trained ini, Anda bisa memanfaatkan fitur-fitur yang telah diekstraksi dan sesuaikan pada data hama caisim, sehingga tetap mencapai performa yang baik meskipun data terbatas.
@@ -63,4 +63,7 @@ Metode ensemble ini tidak mengharuskan Anda memiliki dataset yang lebih besar, t
 Pada dataset kecil, overfitting menjadi masalah yang umum. Anda bisa menerapkan dropout, early stopping, atau regularisasi L2 untuk meningkatkan kemampuan generalisasi model. Teknik ini akan membantu model untuk tidak terlalu terpaku pada data latih yang terbatas dan dapat menghasilkan performa yang lebih baik saat diuji pada data baru.
 6. Validasi Silang (Cross-Validation) untuk Optimasi Model
 Gunakan teknik k-fold cross-validation untuk mengoptimalkan model pada dataset kecil. Dengan membagi dataset menjadi beberapa fold dan melatih model secara bergantian, Anda dapat memastikan bahwa model tidak hanya terbatas pada satu subset data dan lebih tahan terhadap variasi.
+
+### 🔸Judul Paper dari alternatif paper acuan
+"Comparative Analysis of CNN with VGG16, Faster R-CNN, and a Hybrid Model for Pest Detection in Caisim Leaves"
 
