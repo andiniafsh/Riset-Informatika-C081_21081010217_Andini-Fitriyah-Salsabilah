@@ -46,7 +46,7 @@
 ## ❓ Analisis Gap
 #### Penelitian ini terbatas pada satu jenis model deep learning, yaitu CNN dari awal, untuk mendeteksi hama pada tanaman caisim. Selain itu, hanya menggunakan dataset kecil dengan 1000 gambar. Model tersebut tidak mencakup metode deteksi yang lebih kompleks atau segmentasi untuk memperjelas area yang terkena hama secara spesifik. Pendekatannya juga terbatas pada tanaman caisim, sehingga hasilnya mungkin tidak dapat digeneralisasi untuk jenis tanaman lain
 
-### alternatif agar mnedapatkan nilai akurasi yang lebih baik
+### alternatif agar mendapatkan nilai akurasi yang lebih baik
 1. Penerapan Transfer Learning dengan Model Pre-trained
 Alih-alih membangun CNN dari awal, gunakan model yang telah dilatih sebelumnya seperti VGG16, ResNet, atau EfficientNet. Transfer learning memungkinkan model menggunakan pengetahuan yang telah dipelajari dari dataset besar seperti ImageNet, yang dapat meningkatkan akurasi dan generalisasi meskipun dataset terbatas.
 Dengan fine-tuning model pre-trained ini, Anda bisa memanfaatkan fitur-fitur yang telah diekstraksi dan sesuaikan pada data hama caisim, sehingga tetap mencapai performa yang baik meskipun data terbatas.
