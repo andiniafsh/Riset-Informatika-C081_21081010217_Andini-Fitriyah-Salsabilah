@@ -50,7 +50,7 @@
 #### Analisis Terbatas pada Skala Regional: Studi sebelumnya cenderung bersifat nasional tanpa analisis spesifik untuk provinsi atau kawasan seperti Jawa Timur.
 #### Penelitian terkait stacking ensemble untuk indeks ekonomi hijau di Indonesia, khususnya di level provinsi, masih sangat terbatas
 
-### 🟦alternatif agar mendapatkan nilai akurasi yang lebih baik
+### 🟦alternatif solusi
 1. Meningkatkan Pendekatan Prediktif melalui Machine Learning
 Mengintegrasikan Model Machine Learning Lanjutan: Menggunakan pendekatan prediktif yang lebih canggih seperti stacking ensemble, boosting algorithms (XGBoost, LightGBM), atau deep learning untuk meningkatkan akurasi prediksi dan menghasilkan wawasan lebih mendalam.
 Feature Engineering Mendalam: Melakukan eksplorasi dan pembuatan fitur baru yang relevan dengan indeks ekonomi hijau, termasuk data lingkungan, ekonomi, sosial, dan kebijakan.
