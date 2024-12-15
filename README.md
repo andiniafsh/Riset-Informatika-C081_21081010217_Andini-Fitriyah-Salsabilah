@@ -45,26 +45,27 @@
 | 1  | [Link Jurnal Terbaru (FIX) ](https://www.researchgate.net/publication/376990418_Tingkat_Keseimbangan_dan_Klaster_Ekonomi_Hijau_di_Provinsi_Jawa_Timur)          |
 
 ## ❓ Analisis Gap
-#### Penelitian ini terbatas pada satu jenis model deep learning, yaitu CNN dari awal, untuk mendeteksi hama pada tanaman caisim. Selain itu, hanya menggunakan dataset kecil dengan 1000 gambar. Model tersebut tidak mencakup metode deteksi yang lebih kompleks atau segmentasi untuk memperjelas area yang terkena hama secara spesifik. Pendekatannya juga terbatas pada tanaman caisim, sehingga hasilnya mungkin tidak dapat digeneralisasi untuk jenis tanaman lain
+#### Penelitian sebelumnya hanya fokus pada statistik deskriptif atau korelasi sederhana
+#### Kurangnya pendekatan prediktif dan analisis mendalam menggunakan machine learning
+#### Analisis Terbatas pada Skala Regional: Studi sebelumnya cenderung bersifat nasional tanpa analisis spesifik untuk provinsi atau kawasan seperti Jawa Timur.
+#### Penelitian terkait stacking ensemble untuk indeks ekonomi hijau di Indonesia, khususnya di level provinsi, masih sangat terbatas
 
 ### 🟦alternatif agar mendapatkan nilai akurasi yang lebih baik
-1. Penerapan Transfer Learning dengan Model Pre-trained
-Alih-alih membangun CNN dari awal, gunakan model yang telah dilatih sebelumnya seperti VGG16, ResNet, atau EfficientNet. Transfer learning memungkinkan model menggunakan pengetahuan yang telah dipelajari dari dataset besar seperti ImageNet, yang dapat meningkatkan akurasi dan generalisasi meskipun dataset terbatas.
-Dengan fine-tuning model pre-trained ini, Anda bisa memanfaatkan fitur-fitur yang telah diekstraksi dan sesuaikan pada data hama caisim, sehingga tetap mencapai performa yang baik meskipun data terbatas.
-2. Augmentasi Data untuk Memperbanyak Variasi Data
-Terapkan augmentasi data untuk meningkatkan jumlah data latih secara virtual. Teknik augmentasi seperti rotasi, flipping, zooming, dan perubahan kontras atau kecerahan pada gambar dapat membantu model memahami variasi yang lebih luas dari data yang sama, sehingga membantu generalisasi.
-Dengan augmentasi, Anda bisa meningkatkan jumlah sampel tanpa mengumpulkan data baru, yang dapat meningkatkan performa model dan meminimalkan overfitting pada dataset kecil.
-3. Menggabungkan CNN dengan Algoritma Deteksi Objek seperti Faster R-CNN
-Menggabungkan CNN dengan Faster R-CNN dapat meningkatkan deteksi yang lebih spesifik, yaitu dengan memberikan bounding box pada area yang terinfeksi hama. Ini tidak memerlukan data tambahan tetapi akan menambah kemampuan model untuk mendeteksi dan menunjukkan lokasi yang terinfeksi secara langsung.
-Faster R-CNN dengan backbone seperti VGG16 dapat diterapkan pada dataset caisim untuk memberikan informasi lebih lanjut tentang area spesifik yang terkena hama, yang sangat berguna dalam aplikasi lapangan.
-4. Penerapan Metode Ensemble untuk Meningkatkan Akurasi
-Anda dapat menggunakan metode ensemble yang menggabungkan hasil dari beberapa model (misalnya CNN, VGG16, dan Faster R-CNN). Dengan cara ini, prediksi akhir bisa didasarkan pada voting atau rata-rata dari output berbagai model, yang sering kali meningkatkan akurasi dan ketahanan terhadap kesalahan pada data yang terbatas.
-Metode ensemble ini tidak mengharuskan Anda memiliki dataset yang lebih besar, tetapi dapat memaksimalkan pemanfaatan dataset yang ada dengan memanfaatkan kekuatan berbagai model sekaligus.
-5. Penggunaan Teknik Regularisasi untuk Mengurangi Overfitting
-Pada dataset kecil, overfitting menjadi masalah yang umum. Anda bisa menerapkan dropout, early stopping, atau regularisasi L2 untuk meningkatkan kemampuan generalisasi model. Teknik ini akan membantu model untuk tidak terlalu terpaku pada data latih yang terbatas dan dapat menghasilkan performa yang lebih baik saat diuji pada data baru.
-6. Validasi Silang (Cross-Validation) untuk Optimasi Model
-Gunakan teknik k-fold cross-validation untuk mengoptimalkan model pada dataset kecil. Dengan membagi dataset menjadi beberapa fold dan melatih model secara bergantian, Anda dapat memastikan bahwa model tidak hanya terbatas pada satu subset data dan lebih tahan terhadap variasi.
+1. Meningkatkan Pendekatan Prediktif melalui Machine Learning
+Mengintegrasikan Model Machine Learning Lanjutan: Menggunakan pendekatan prediktif yang lebih canggih seperti stacking ensemble, boosting algorithms (XGBoost, LightGBM), atau deep learning untuk meningkatkan akurasi prediksi dan menghasilkan wawasan lebih mendalam.
+Feature Engineering Mendalam: Melakukan eksplorasi dan pembuatan fitur baru yang relevan dengan indeks ekonomi hijau, termasuk data lingkungan, ekonomi, sosial, dan kebijakan.
+Validasi Model dengan Teknik Cross-Validation: Memastikan keakuratan model dengan menggunakan teknik validasi seperti k-fold cross-validation.
+2. Pendekatan Spesifik Berdasarkan Kawasan (Provinsi)
+Analisis Regional Detail: Fokus pada data granular untuk Jawa Timur atau provinsi lain. Gunakan data tingkat kabupaten/kota untuk mendukung analisis spasial yang lebih tajam.
+Model Kontekstual Spesifik: Bangun model yang mempertimbangkan karakteristik unik setiap provinsi, seperti ketersediaan sumber daya, kebijakan lokal, dan kondisi sosial-ekonomi.
+3. Mengembangkan Studi tentang Stacking Ensemble untuk Ekonomi Hijau
+Optimasi Model Stacking Ensemble: Melakukan Eksplorasi berbagai kombinasi algoritma dalam lapisan dasar (base learners) dan meta-model untuk menghasilkan prediksi yang lebih kuat.
+Bandingkan dengan Model Tunggal: Melakukan studi komparatif antara stacking ensemble dan model-model individu untuk menunjukkan keunggulan pendekatan ini.
+Pengujian pada Data Spesifik Indonesia: Menerapkan model stacking ensemble secara khusus pada dataset ekonomi hijau di Indonesia dengan mempertimbangkan karakteristik unik lokal.
+4. Pengumpulan Data yang Lebih Luas dan Berkualitas
+Integrasi Data Multisumber: Mengkombinasi data ekonomi, lingkungan, sosial, dan kebijakan dari sumber nasional, regional, dan internasional untuk mendukung analisis mendalam.
+
 
 ### 🔸Judul Paper dari alternatif paper acuan
-"Comparative Analysis of CNN with VGG16, Faster R-CNN, and a Hybrid Model for Pest Detection in Caisim Leaves"
+"PENERAPAN STACKING ENSEMBLE UNTUK PREDIKSI INDEKS EKONOMI HIJAU DI JAWA TIMUR DENGAN XGBOOST, LIGHTGBM, DAN CATBOOST"
 
