@@ -41,7 +41,8 @@
 
 | No | Link Jurnal              |
 |----|--------------------------|
-| 1  | [Link Jurnal](https://ieeexplore.ieee.org/document/10127792)          |
+| 1  | [Link Jurnal UTS](https://ieeexplore.ieee.org/document/10127792)          |
+| 1  | [Link Jurnal Terbaru (FIX) ](https://www.researchgate.net/publication/376990418_Tingkat_Keseimbangan_dan_Klaster_Ekonomi_Hijau_di_Provinsi_Jawa_Timur)          |
 
 ## ❓ Analisis Gap
 #### Penelitian ini terbatas pada satu jenis model deep learning, yaitu CNN dari awal, untuk mendeteksi hama pada tanaman caisim. Selain itu, hanya menggunakan dataset kecil dengan 1000 gambar. Model tersebut tidak mencakup metode deteksi yang lebih kompleks atau segmentasi untuk memperjelas area yang terkena hama secara spesifik. Pendekatannya juga terbatas pada tanaman caisim, sehingga hasilnya mungkin tidak dapat digeneralisasi untuk jenis tanaman lain
