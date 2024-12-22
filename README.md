@@ -41,10 +41,10 @@
 
 | No | Link Jurnal              |
 |----|--------------------------|
-| 1  | [Link Jurnal](https://ieeexplore.ieee.org/document/10127792)          |
+| 1  | [Link Jurnal UTS](https://ieeexplore.ieee.org/document/10127792)          |
 
 ## ❓ Analisis Gap
-#### Penelitian ini terbatas pada satu jenis model deep learning, yaitu CNN dari awal, untuk mendeteksi hama pada tanaman caisim. Selain itu, hanya menggunakan dataset kecil dengan 1000 gambar. Model tersebut tidak mencakup metode deteksi yang lebih kompleks atau segmentasi untuk memperjelas area yang terkena hama secara spesifik. Pendekatannya juga terbatas pada tanaman caisim, sehingga hasilnya mungkin tidak dapat digeneralisasi untuk jenis tanaman lain
+#### Penelitian ini terbatas pada satu jenis model deep learning, yaitu CNN scratch dari awal, untuk mendeteksi hama pada tanaman caisim. Sedangkan bisa ditingkatkan akurasi prediksinya dengan mencoba metode yang lebih kompleks dan terbaru seperti VGG16, dll sehingga akurasinya lebih meningkat
 
 ### 🟦alternatif agar mendapatkan nilai akurasi yang lebih baik
 1. Penerapan Transfer Learning dengan Model Pre-trained
@@ -65,5 +65,5 @@ Pada dataset kecil, overfitting menjadi masalah yang umum. Anda bisa menerapkan 
 Gunakan teknik k-fold cross-validation untuk mengoptimalkan model pada dataset kecil. Dengan membagi dataset menjadi beberapa fold dan melatih model secara bergantian, Anda dapat memastikan bahwa model tidak hanya terbatas pada satu subset data dan lebih tahan terhadap variasi.
 
 ### 🔸Judul Paper dari alternatif paper acuan
-"Comparative Analysis of CNN with VGG16, Faster R-CNN, and a Hybrid Model for Pest Detection in Caisim Leaves"
+"Comparative Analysis of CNN with VGG16 dan Xception Model for Pest Detection in Caisim Leaves"
 
