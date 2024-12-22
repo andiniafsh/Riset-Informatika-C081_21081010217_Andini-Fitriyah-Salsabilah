@@ -65,5 +65,5 @@ Pada dataset kecil, overfitting menjadi masalah yang umum. Anda bisa menerapkan 
 Gunakan teknik k-fold cross-validation untuk mengoptimalkan model pada dataset kecil. Dengan membagi dataset menjadi beberapa fold dan melatih model secara bergantian, Anda dapat memastikan bahwa model tidak hanya terbatas pada satu subset data dan lebih tahan terhadap variasi.
 
 ### 🔸Judul Paper dari alternatif paper acuan
-"Comparative Analysis of CNN with VGG16 dan Xception Model for Pest Detection in Caisim Leaves"
+"Comparative Analysis of CNN with VGG16, and Xception Models for Pest Detection and Harvest Readiness Prediction in Caisim Leaves"
 
