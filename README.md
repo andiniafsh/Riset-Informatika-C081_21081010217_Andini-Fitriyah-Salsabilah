@@ -67,6 +67,6 @@ Gunakan teknik k-fold cross-validation untuk mengoptimalkan model pada dataset k
 ### 🔸Judul Paper dari alternatif paper acuan
 "Comparative Analysis of CNN with VGG16, and Xception Models for Pest Detection and Harvest Readiness Prediction in Caisim Leaves"
 ### 🔸Link Presentasi 
-[Link presentasil]([https://dl.acm.org/doi/pdf/10.1145/3551624.3555285](https://drive.google.com/file/d/1fs4C5DDiw9XPvKXg28yA5k59HXhT7Tdq/view?usp=sharing))                                     |
+[Link presentasil](https://dl.acm.org/doi/pdf/10.1145/3551624.3555285](https://drive.google.com/file/d/1fs4C5DDiw9XPvKXg28yA5k59HXhT7Tdq/view?usp=sharing))                       
 
 
